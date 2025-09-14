@@ -1,0 +1,46 @@
+img {
+    display:block; 
+    margin-bottom: 10px;
+}
+p   {
+  border-style : outset ;
+  border-color : rgb(0, 0, 0); 
+  font-family: cursive;
+  font-size: 200%;
+  text-align:center;
+  margin:1px;
+   /* <!-- this helps to limit the outflow of BRODER + no paddings needed --> */
+}
+div  {
+    width: 600px;
+    display:block;
+    text-align: center;
+    
+}
+a
+{
+    font-size: xx-large;
+    text-decoration:none;
+    text
+}
+body
+{
+    background-image: url(LAVID.jpg);
+    background-repeat:repeat-x;
+    /* background-position: 600px ; */
+    /* background-position: center; */
+    background-size: cover;
+    /* background-blend-mode: ; */
+
+}
+/* img
+{
+    width: 600px;
+    height: 300px;
+} */
+.Erro0
+{
+    height: 300px;
+    width: 600px;
+    /* not done wait */
+}
