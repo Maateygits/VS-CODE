@@ -1,0 +1,22 @@
+#1{
+    font-style: italic;
+    color: blue;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,20fr 300fr 900fr); /* 3 equal columns */
+/* ok so the number 4 will help you create 4 columns where as fr plays with inside the columns width ( also known as fractions  h */
+/* also grid-template-rows will play part on height of rows */
+  gap: 10px;
+    grid-template-rows: fr 4fr ,4fr;
+
+}
+
+.item {
+  background-color: rgb(163, 110, 110);
+  padding: 20px;
+  text-align: center;
+  font-style: oblique;
+}
