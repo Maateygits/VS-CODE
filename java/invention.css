@@ -1,0 +1,48 @@
+input
+{
+    margin:1px;
+    height:50px;
+    width:287px;
+    font-size:xx-large;
+}
+textarea
+{
+    font-size: xx-large;
+    margin:1px;
+    display:block;
+    height:200px;
+    width:287px;
+}
+select
+{
+    font-size: 200%;
+    margin:1px;
+    width:294px;
+    height:50px
+}
+table
+{
+    font-size:200%;
+    margin:0px;
+    display:block;
+    border:dashed;
+    border-color:#00FFFF;
+}
+a
+{
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ffffff;  
+    color: rgb(94, 231, 162);  
+    text-align: center;
+    text-decoration: none; 
+    cursor:grab;
+}
+option
+{
+    color: rgb(198, 248, 210);
+}

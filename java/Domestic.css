@@ -1,0 +1,18 @@
+fieldset
+{
+    margin: 0px;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgb(4, 0, 255);
+    border-style: dashed;
+    /* <!-- padding: 0em; --> */
+}
+textarea {
+    font-size: xx-large;
+    border-radius: 2cm;
+}
+a
+{
+    font-size: xx-large;
+    text-decoration:none;
+}

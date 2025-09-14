@@ -1,0 +1,120 @@
+   /* ~this symbol i frogot------------------ */
+/* div ~ p {
+    color:red;
+}
+div ~ p ~ em {
+    color:blue;
+} */
+ /* space------------------------------------ */
+/* div p {
+    color:red;
+}
+div p em {
+    color:blue;
+} */
+ /* greater--------------------------------- */
+/* div > p {
+    color:red;
+}
+div > p > em {
+    color:blue;
+} */
+ /* plus------------------------------------ */
+ /* div + p {
+    color:red;
+}
+div + p + em {
+    color:blue;
+} */
+/* a
+{
+   font-size: xx-large;
+   text-decoration:none;
+} */
+/* .box 
+{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    background-color: darkslateblue; 
+    border:dashed ;
+    height: 100px;
+    width:500px;
+    margin: 0%;
+}
+/* .box1
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 75px;
+    right: 75px;
+    /* left: 500px; */
+/* } */ 
+/* .box2
+{
+    height:300px;
+    width: 300px;
+    border: outset;
+    background-color:gray;
+    position: relative;
+    left:100px;
+    bottom: 10px;
+}
+.box3
+{
+    height: 200px;
+    width: 200px;
+    border: outset;
+    position:relative;
+    background-color: aqua;
+    left: 150px;
+    bottom:250px
+
+}
+.box4
+{
+    height:100px;
+    width: 100px;
+    border: outset;
+    position: relative;
+    background-color: rgb(219, 157, 0);
+    bottom: 400px;
+    left: 200px;
+    right: 200px;
+}
+.box5
+{
+     /* to be continued static border */
+/* }  */
+/* ------------------------ used only for overlaying elements */ 
+/*------------------------- z position only used to order according to the number according 
+/* to the code below if its 1 it will go to the very below and number 3 will be fully visible ( it will come to the front ) */
+  .box1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    /* position: relative; */
+    z-index: 3;
+  }
+  
+  .box2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:relative;
+    top: -25px;
+    left: 50px;
+    z-index: 2;
+  }
+  .box3 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    position:absolute;
+    top: 125px;
+    left: 25px;
+    z-index: 1;
+  }
+  ---------------------------
