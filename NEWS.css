@@ -10,7 +10,7 @@
 /* ok so the number 4 will help you create 4 columns where as fr plays with inside the columns width ( also known as fractions  h */
 /* also grid-template-rows will play part on height of rows */
   gap: 10px;
-    grid-template-rows: fr 4fr ,4fr;
+    grid-template-rows: 200PX 300px 200px;
 
 }
 
